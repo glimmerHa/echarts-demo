@@ -1,0 +1,17 @@
+.yl-layout{
+    // 使用 传统浮动两栏布局
+    
+}
+.yl-nav{
+    float: left;
+    width:200px;
+    background-color: antiquewhite;
+}
+.yl-container{
+    // bfc化
+    overflow: hidden;
+}
+.yl-header{
+    height:50px;
+    background-color: azure;
+}
